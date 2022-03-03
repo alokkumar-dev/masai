@@ -9,4 +9,22 @@ const img = document.createElement("img");
 img.src = logo;
 
 
-document.getElementById("root").append(h1, img);
+const input = document.createElement("input");
+const button = document.createElement("button");
+const div = document.createElement("div");
+let p = document.createElement("p");
+
+input.classList = "inputfield";
+button.innerText = "Submit";
+
+button.addEventListener("click", () => {
+  let value = input.value;
+  p.innerText = value;
+
+});
+
+div.append(input,button,p)
+
+
+
+document.getElementById("root").append(h1, img, div);
