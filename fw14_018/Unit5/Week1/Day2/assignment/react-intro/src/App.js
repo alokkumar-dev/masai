@@ -1,34 +1,29 @@
-// import logo from './logo.svg';
-import "./App.css";
+import './App.css';
 
 function App() {
-  const userData = [
-    {fname: "Alok", lname:"Kumar", age: 22},
-    {fname: "Devesh", lname:"Verma", age: 22},
-    {fname: "Devendra", lname:"Yadav", age: 21},
-    {fname: "Abhishek", lname:"Prajapati", age: 20},
 
-  ];
+  let title1 = "Mobile Operating System"
+  let title2 = "Mobile manufacturer"
+  let arr1 = ["Android","Blackberry","Iphone","Window Phone"]
+  let arr2 = ["Samsung","HTC","Micromax","Apple"]
 
   return (
-
-    <div>
-      {userData.map((user)=>(
-        <UserComponent fname={user.fname} lname={user.lname} age={user.age} />
-      ))}
+    <div className="App">
+    <ListCreator title={title1} arr={arr1}/>
+    <ListCreator title={title2} arr={arr2}/>
     </div>
   );
 }
- 
 
-function UserComponent({fname,lname, age}){
+function ListCreator({title,arr}) {
   return (
-   <div className = "borderBox">
-     <h1>Hello {fname} {lname}</h1>
-     <h1>Your age is : {age}</h1>
-     
-     </div>
-
+    <div>
+      <h2> {title} </h2>
+      <ul>
+        
+      {arr.map((item)=> <li> {item}</li> )}
+      </ul>
+    </div>
   )
 }
 
