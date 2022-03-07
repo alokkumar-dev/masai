@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+button{
+  padding: 3px 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+.total{
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+}
