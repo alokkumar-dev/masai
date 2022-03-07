@@ -3,9 +3,10 @@
 }
 
 button{
-  padding: 3px 8px;
+  padding: 3px 10px;
   margin: 5px;
   cursor: pointer;
+  background-color: pink;
 }
 .total{
   font-size: 25px;
