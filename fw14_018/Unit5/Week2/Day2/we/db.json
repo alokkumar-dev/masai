@@ -1,0 +1,59 @@
+{
+  "groceries": [
+    {
+      "title": "Onion",
+      "pruchased": false,
+      "id": 1
+    },
+    {
+      "title": "Mango",
+      "pruchased": false,
+      "id": 2
+    },
+    {
+      "title": "Mango",
+      "pruchased": false,
+      "id": 3
+    },
+    {
+      "title": "Mango",
+      "pruchased": false,
+      "id": 4
+    },
+    {
+      "title": "Banana",
+      "pruchased": false,
+      "id": 5
+    },
+    {
+      "title": "Chilli",
+      "pruchased": false,
+      "id": 6
+    },
+    {
+      "title": "Fibonacci",
+      "pruchased": false,
+      "id": 7
+    },
+    {
+      "title": "Pablu Panday",
+      "pruchased": false,
+      "id": 8
+    },
+    {
+      "title": "Pablu Panday",
+      "pruchased": false,
+      "id": 9
+    },
+    {
+      "title": "Bargar",
+      "pruchased": false,
+      "id": 10
+    },
+    {
+      "title": "Pizza",
+      "pruchased": false,
+      "id": 11
+    }
+  ]
+}
