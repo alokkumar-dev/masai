@@ -1,5 +1,5 @@
 import { useState } from "react"
-export function Counter(props) {
+export function Counter() {
     const [counter, setCounter] = useState(0);
     const handleChange = (value) => {
         if(value==1 || value ==-1){
@@ -15,11 +15,11 @@ export function Counter(props) {
     return (
         <div>
             <h1>Counter: <span>{counter}</span></h1>
-            <button onClick={() => { handleChange(1) }}>Inc 1</button>
+            <button onClick={() => { handleChange(1) }}>Inc 1
+            </button>
 
             <button onClick={() => {
                 if(counter>=1){
-
                     handleChange(-1) 
                 }
                  }}>Dec 1
