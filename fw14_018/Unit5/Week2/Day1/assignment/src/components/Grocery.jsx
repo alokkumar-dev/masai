@@ -4,6 +4,7 @@ import { TodoItem } from "./GroceryList";
 
 export const Todo = ()=>{
     const [todos, setTodos] = useState([]);
+    // const [index, setIndex]= useState(0);
    
     const addTodo = (data)=>{    
         setTodos([...todos, data])
