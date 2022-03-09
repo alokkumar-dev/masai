@@ -13,7 +13,7 @@ export const TodoInput = ({addTodo})=>{
                 }} />
             <button className="TaskBtn" onClick={()=>{
                 addTodo(text);
-            }}>Add task
+            }}>Save
 
             </button>
         </div>
