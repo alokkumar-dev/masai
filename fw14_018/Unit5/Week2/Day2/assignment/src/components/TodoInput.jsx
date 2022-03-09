@@ -8,10 +8,10 @@ export const TodoInput = ({addTodo})=>{
     return (
         <div>
             
-            <input type="text" placeholder="Add text." onChange={(e)=>{
+            <input type="text" placeholder="enter text." onChange={(e)=>{
                 setText(e.target.value);
                 }} />
-            <button onClick={()=>{
+            <button className="TaskBtn" onClick={()=>{
                 addTodo(text);
             }}>Add task
 

@@ -45,7 +45,8 @@ export const Todo = ()=>{
     }
     
     return (
-        <div>Welcome Todo
+        <div>
+            <h1>Todo List</h1>
             <TodoInput addTodo={addTodo} />
             {
                 text.map((e)=>
@@ -53,12 +54,12 @@ export const Todo = ()=>{
                <TodoItem title={e.title} id={e.id} key={e.id} handleDelete={handleDelete} />
                ))
             }
-            <button onClick={()=>{
+            <button className="TaskBtn" onClick={()=>{
                 if(page>=1){
                     handleChange(-1);
                 }
             }}>Prev</button>
-            <button onClick={()=>{
+            <button className="TaskBtn" onClick={()=>{
                 handleChange(1);
             }}>Next</button>
             

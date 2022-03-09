@@ -1,11 +1,6 @@
 {
   "todoItems": [
     {
-      "title": "Dal",
-      "purchased": false,
-      "id": 3
-    },
-    {
       "title": "Paneer",
       "purchased": false,
       "id": 5
@@ -16,22 +11,22 @@
       "id": 6
     },
     {
-      "title": "Cnaval",
+      "title": "Dal",
       "purchased": false,
       "id": 7
     },
     {
-      "title": "Cnaval",
+      "title": "Pakoda",
       "purchased": false,
       "id": 8
     },
     {
-      "title": "Cnaval",
+      "title": "Pizza",
       "purchased": false,
       "id": 9
     },
     {
-      "title": "Cnaval",
+      "title": "Bargar",
       "purchased": false,
       "id": 10
     }
