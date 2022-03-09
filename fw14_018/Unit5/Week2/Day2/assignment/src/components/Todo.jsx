@@ -41,6 +41,7 @@ export const Todo = ()=>{
         }).then(()=>{
             getData();
         })
+      
     }
     
     return (

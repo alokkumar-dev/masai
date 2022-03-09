@@ -5,8 +5,6 @@ export const TodoItem = ({title,id, handleDelete})=>{
             <button onClick={()=>{
                 handleDelete(id)
             }}>Delete</button>
-
-
         </div>
     )
 }
