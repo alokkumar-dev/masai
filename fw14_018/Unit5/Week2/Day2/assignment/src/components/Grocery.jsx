@@ -1,14 +1,16 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
-import { TodoInput } from "./TodoInput"
-import { TodoItem } from "./TodoItem";
+import { TodoInput } from "./GroceryInput"
+import { TodoItem } from "./GroceryList";
 
 export const Todo = ()=>{
     const [text, setText]= useState([]);
     const [page, setPage]= useState(1);
 
     const handleChange = (data)=>{
-        setPage(page + data);
+        if((page+data)<=text.length){
+            setPage(page + data);
+        }
     }
 
     useEffect(()=>{

@@ -29,6 +29,16 @@
       "title": "Bargar",
       "purchased": false,
       "id": 10
+    },
+    {
+      "title": "Potato",
+      "purchased": false,
+      "id": 11
+    },
+    {
+      "title": "Onion",
+      "purchased": false,
+      "id": 12
     }
   ]
 }
