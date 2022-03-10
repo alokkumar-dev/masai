@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "alokkumar",
+      "email": "alokshakya2601@gmail.com",
+      "age": "22",
+      "id": 1
+    },
+    {
+      "username": "alokkumar",
+      "email": "alokshakya2601@gmail.com",
+      "age": "22",
+      "id": 2
+    },
+    {
+      "username": "alokkumar",
+      "email": "alokshakya2601@gmail.com",
+      "age": "22",
+      "id": 3
+    },
+    {
+      "username": "shivam",
+      "email": "shivam@gmail.com",
+      "age": "16",
+      "id": 4
+    }
+  ]
+}
