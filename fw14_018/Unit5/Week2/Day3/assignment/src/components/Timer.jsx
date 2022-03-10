@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react"
 
 export const StopWatch =()=>{
-    const [timer, seTimer]= useState(2);
-    const [end, setEndTimer]= useState(20);
-    console.log(end)
+    const [timer, seTimer]= useState(1);
+    const [end, setEndTimer]= useState(60);
 
     useEffect(()=>{
       const id =  setInterval(()=>{
@@ -11,9 +10,10 @@ export const StopWatch =()=>{
                 if(prev<end){
                     return prev +1;
                 }
+                clearInterval(id);
                 return end;
             });
-        },300);
+        },1000);
         return ()=>{
                    clearInterval(id);
                    console.log("Unmounted Timer");
