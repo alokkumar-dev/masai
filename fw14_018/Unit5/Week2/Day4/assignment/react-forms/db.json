@@ -52,6 +52,26 @@
       "salary": "60000",
       "department": "Mechnical",
       "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "department": "Eletrical",
+      "name": "SURAJ SINGH",
+      "age": "23",
+      "address": "Firozabad",
+      "salary": "50000",
+      "married": false,
+      "id": 8
+    },
+    {
+      "name": "Devendra Yadav",
+      "age": "22",
+      "address": "Shastri Nagar Ghaziabad",
+      "salary": "5000",
+      "department": "IT",
+      "id": 9
     }
   ]
 }
