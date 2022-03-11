@@ -2,8 +2,7 @@ import { Button, Div } from "./components/buttons";
 
 function App() {
   return (
-    <div className="App">
-      {/* <h1>Hi React</h1> */}
+    <div>
   
       <Div>
         <Button>Primary Button</Button>
