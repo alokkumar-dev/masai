@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "name": "ALOK KUMAR",
+      "age": "22",
+      "address": "Shastri Nagar Ghaziabad",
+      "salary": "545645646",
+      "department": "IT",
+      "married": true,
+      "id": 1
+    },
+    {
+      "name": "ALOK KUMAR",
+      "age": "22",
+      "address": "Shastri Nagar Ghaziabad",
+      "salary": "51556565",
+      "department": "Civil",
+      "married": true,
+      "id": 2
+    },
+    {
+      "name": "asdfasdf",
+      "age": "23",
+      "address": "Shastri Nagar Ghaziabad",
+      "salary": "5564",
+      "department": "Eletrical",
+      "married": false,
+      "id": 3
+    },
+    {
+      "name": "asdfasd",
+      "age": "22",
+      "address": "asdfasdf",
+      "salary": "626",
+      "department": "Civil",
+      "married": true,
+      "id": 4
+    },
+    {
+      "name": "ALOK",
+      "age": "22",
+      "address": "Shastri Nagar Ghaziabad",
+      "salary": "56465455",
+      "department": "Mechnical",
+      "married": true,
+      "id": 5
+    },
+    {
+      "name": "Shivangi ",
+      "age": "23",
+      "address": "Bulandshasar",
+      "salary": "60000",
+      "department": "Mechnical",
+      "id": 6
+    }
+  ]
+}
