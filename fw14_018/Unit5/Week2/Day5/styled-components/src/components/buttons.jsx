@@ -16,25 +16,24 @@ font-size: 16px;
 font-weight: 700; 
 margin: 5px;
 border:none;
+border-radius: 3px;
 background: transparent;
 cursor:pointer;
-&:nth-child(1){
-    color: #ffffff;
-    background-color: #0303ffaf;
-}
-&:nth-child(2){
-    color: black;
-    border: 1px solid #c0c0c0;
-}
-&:nth-child(3){
-    border: 1px dashed #c0c0c0;
-}
-&:nth-child(4){
-    border:none;
-}
-&:nth-child(5){
-    color: #5168ff;
-}
+
+    color: ${(props)=>(props.type==="primary"? "#ffffff":"")};
+    background-color: ${(props)=>(props.type==="primary"? "#2490fe":"")};
+    border: ${(props)=>(props.type==="primary"? "1px solid #2490fe":"")};
+
+    color: ${(props)=>(props.type==="default"? "#000000":"")};
+    border: ${(props)=>(props.type==="default"? "1px solid #c0c0c0":"")};
+
+    border:${(props)=>(props.type==="dashed"? "1px dashed #c0c0c0":"")};
+
+    border: ${(props)=>(props.type==="text"? "none":"")};
+
+    color: ${(props)=>(props.type==="link"? "#1578c9":"")};
+
+
 
 &:hover{
     color:red;

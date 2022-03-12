@@ -5,13 +5,12 @@ function App() {
     <div>
   
       <Div>
-        <Button>Primary Button</Button>
-        <Button>Default Button</Button>
-        <Button>Dashed Button</Button>
-        <Button>Text Button</Button>
-        <Button>Link Button</Button>
+        <Button type="primary" >Primary Button</Button>
+        <Button type="default">Default Button</Button>
+        <Button type="dashed">Dashed Button</Button>
+        <Button type="text">Text Button</Button>
+        <Button type="link">Link Button</Button>
       </Div>
-      
     </div>
   );
 }
