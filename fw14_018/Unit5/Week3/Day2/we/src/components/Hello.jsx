@@ -1,7 +1,7 @@
-export const Hello  =()=>{
+export const Hello = ()=>{
     return(
-        <>
-            <h1>Welcome to home page</h1>
-        </>
+        <div>
+            <h2>welcome to Hello page</h2>
+        </div>
     )
 }
