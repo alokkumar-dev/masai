@@ -4,14 +4,14 @@
             "name"  : "SmartPhone",
             "price": 30,
             "id" : 0,
-            "img":"https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGILS08_nJhQPsRmrTOvZqeyfjUm1CODIzMg&usqp=CAU",
             "specs" : "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display  8MP Rear Camera | 5MP Front Camera 5000 mAh Battery  Octa-core Processor"
         },
         {
             "name"  : "Watch",
             "price" : 20,
             "id" : 1,
-            "img" : "https://media.istockphoto.com/photos/watchmaker-repair-mechanical-watches-gears-repair-watch-repair-picture-id1328828672?b=1&k=20&m=1328828672&s=170667a&w=0&h=Am3m9uUlzIpBUFQ5pOC_CsA3Db_ISdBLNFVuAoFa2tA=",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqpxBTlVvK21LQGG4gAy5v9o6639I7RwA9tg&usqp=CAU",
             "specs" :"Water Resistant , Analog-Digital ,Casual,G-Shock ( GWG-1000-1A1DR ), Sports Watch Type Wrist Watch"
           
             
@@ -20,14 +20,14 @@
             "name" : "Shirt",
             "price" : 50,
             "id" : 2,
-            "img" : "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hJtjlOJJqWE1JyLpp2nhL7NWhjhfBAYTOLA_5QsRkxaypyCpxrlwGCs7dDBvtnGdDWo&usqp=CAU",
             "specs" :"Fabric Pure Cotton Sleeve Full Sleeve Pattern Checkere Reversibl N ColoGrey"
         },
         {
             "name" : "Pants",
             "price" : 100,
             "id" : 3,
-            "img":"https://images.unsplash.com/photo-1590159983013-d4ff5fc71c1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "img":"https://us.123rf.com/450wm/kesu87/kesu871810/kesu87181000120/109550793-vr-virtual-reality-glasses-on-white-background.jpg?ver=6",
             "specs" :"Occasion Formal Color Black Pack of 1 Type Formal Trouser Suitable ForWestern Wear Alteration Require No Belt Loop Yes"
         }
     ]
