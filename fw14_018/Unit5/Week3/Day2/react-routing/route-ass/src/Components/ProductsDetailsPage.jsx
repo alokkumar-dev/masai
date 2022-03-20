@@ -1,17 +1,21 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 export const ProductsDetailsPage = () => {
   const { id } = useParams();
   const [data, setData] = useState([]);
+  const navigate = useNavigate();
   useEffect(() => {
-    axios.get(`http://localhost:4000/products/${id}`).then((res) => {
-      setData([res.data]);
-      console.log(data);
-    });
+    axios
+      .get(`http://localhost:4000/products/${id}`)
+      .then((res) => {
+        setData([res.data]);
+      })
+      .catch((e) => {
+        navigate("/errors");
+      });
   }, []);
-
   return (
     <>
       <div
@@ -23,7 +27,7 @@ export const ProductsDetailsPage = () => {
         }}
       >
         {data.map((e) => {
-          return (     
+          return (
             <div key={e.id}>
               <img src={e.img} alt="" />
               <div className="productDetails" style={{ padding: "20px" }}>
@@ -33,17 +37,12 @@ export const ProductsDetailsPage = () => {
                 </div>
                 <h5>Specifications : </h5>
                 <div style={{ width: "700px", paddingLeft: "30px" }}>
-                  { /* Show Product specification here */}
+                  {/* Show Product specification here */}
                   {e.specs}
-
                 </div>
-              </div> 
-              
-               
-              
+              </div>
             </div>
           );
-          
         })}
       </div>
     </>
