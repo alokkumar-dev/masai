@@ -1,12 +1,35 @@
-import { useState } from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "../Redux/actioin";
+import { addTodo } from "../Redux/todo/action";
 
 export const Todo = () => {
   const [text, setText] = useState("");
 
-  const todos = useSelector((store) => store.todo);
+  const { todo } = useSelector((store) => store.todo);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    getTodo();
+  }, []);
+
+  const addTodos = () => {
+    axios
+      .post(`http://localhost:8080/todo`, {
+        title: text,
+        status: false,
+      })
+      .then(() => getTodo());
+  };
+ 
+
+  const getTodo = () => {
+    axios.get("http://localhost:8080/todo").then(({ data }) => {
+      dispatch(addTodo(data));
+      console.log(todo)
+
+    })
+  };
 
   return (
     <div>
@@ -17,14 +40,13 @@ export const Todo = () => {
       />
       <button
         onClick={() => {
-          dispatch(addTodo(text));
-
+          addTodos();
         }}
       >
         Add Todo
       </button>
-      {todos.map((e) => (
-        <div>{console.log(e)} </div>
+      {todo.map((e, i) => (
+        <div key={i}>{e.title} </div>
       ))}
     </div>
   );
