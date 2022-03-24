@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.detailsLinks{
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv{
+  display: flex;
+}

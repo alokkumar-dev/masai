@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "name": "Alok kumar",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "DSA",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "JavaScript",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "TypeScript",
+      "status": false,
+      "id": 4
+    },
+    {
+      "name": "React",
+      "status": false,
+      "id": 5
+    }
+    
+  ]
+}
