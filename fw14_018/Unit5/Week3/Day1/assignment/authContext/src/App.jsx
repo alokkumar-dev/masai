@@ -1,17 +1,20 @@
+import './App.css';
+import { Navbar } from './components/Navbar';
 
-import './App.css'
-import { Button } from './components/Navbar/Button'
+import { Body } from './components/Body';
 
 
 
 function App() {
-
+ 
   return (
     <div className="App">
-      <h1>hello world</h1>
-      <Button />
+      <Navbar>
+      </Navbar> 
+    <Body />
+     
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
