@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Hello React Counter: {count} </h1>
+     <h2>Hello React Counter: {count} </h2>
      <button onClick={()=>{handleCount(1)}}>Add 1</button>
     </div>
   )
