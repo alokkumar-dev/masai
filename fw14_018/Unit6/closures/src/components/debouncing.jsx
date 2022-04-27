@@ -40,7 +40,7 @@ export const Debouncing = () => {
            {
             data.map((el,i)=>(
 
-                <div className="dataCart">
+                <div key={i} className="dataCart">
                     <img src={el.Poster} alt="" />
                     <h3>{el.Title}</h3>
                 </div>
