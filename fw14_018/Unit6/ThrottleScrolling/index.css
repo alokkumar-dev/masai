@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.main{
+    border: 2px solid;
+    margin:30px auto;
+    width: 50%;
+}
+
+.container{
+    border: 5px solid black;
+    overflow: scroll;
+    cursor: pointer;
+    height: 350px;
+}
+.container>h2{
+    height: 250px;
+    width: 100%;
+}
