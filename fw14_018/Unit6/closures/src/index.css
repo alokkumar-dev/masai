@@ -1,0 +1,10 @@
+#inputBox{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 10px;
+}
+.container{
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: repeat(4, 1fr);
+}
