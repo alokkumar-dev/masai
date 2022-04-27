@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+}
+.togglerDiv{
+    height: 250px;
+    margin: 20px auto;
+    width: 40%;
+    background-color: teal;
+    border-radius: 5px;
+}
+.changeColorBtn{
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5px;
+}
