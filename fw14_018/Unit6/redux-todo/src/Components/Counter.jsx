@@ -16,9 +16,7 @@ export const Counter = () => {
       </button>
       <button
         onClick={() => {
-          if (count > 0) {
-            dispatch(subCount(1));
-          }
+          if (count > 0) dispatch(subCount(1));
         }}
       >
         Sub 1
