@@ -26,8 +26,6 @@ export const Todo = () => {
   const getTodo = () => {
     axios.get("http://localhost:8080/todo").then(({ data }) => {
       dispatch(addTodo(data));
-      console.log(todo)
-
     })
   };
 

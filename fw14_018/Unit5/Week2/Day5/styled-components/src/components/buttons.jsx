@@ -32,12 +32,6 @@ cursor:pointer;
     border: ${(props)=>(props.type==="text"? "none":"")};
 
     color: ${(props)=>(props.type==="link"? "#1578c9":"")};
-
-
-
-&:hover{
-    color:red;
-}
 `;
 
 export { Button, Div };

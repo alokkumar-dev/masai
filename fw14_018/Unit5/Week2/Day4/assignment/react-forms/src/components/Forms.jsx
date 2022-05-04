@@ -10,7 +10,7 @@ export const Forms = () => {
 
 
     const handleChange = (e) => {
-        let { id, value, checked, type } = e.target
+        let { id, value, checked, type} = e.target
         value = type === "checkbox" ? checked : value;
         setFormData({
             ...formData,
@@ -29,6 +29,7 @@ export const Forms = () => {
 
     const getFormData = () => {
         axios.get("http://localhost:3001/users").then((res) => {
+            console.log(res.data)
             setData(res.data);
         })
     }
@@ -36,6 +37,8 @@ export const Forms = () => {
         getFormData();
 
     }, [formData]);
+    // getFormData();
+
 
     return (
         <>
